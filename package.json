@@ -1,0 +1,16 @@
+{
+  "name": "certificate-blaster",
+  "version": "1.0.0",
+  "description": "Email certificate sender for Upstream Force",
+  "main": "send-certificates.js",
+  "scripts": {
+    "start": "node send-certificates.js"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.7",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.3.1",
+    "cli-progress": "^3.12.0",
+    "chalk": "^4.1.2"
+  }
+}
